@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build Android APK Locally
 
 on:
   push:
@@ -11,10 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js (Version 22)
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: 'npm'
 
       - name: Setup Java
@@ -23,15 +23,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Setup EAS CLI
-        run: npm install -g eas-cli
-
       - name: Install dependencies
         run: npm install
 
-      - name: Build APK with EAS
-        env:
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: |
-          # بناء نسخة APK للمعاينة محلياً عبر EAS دون الحاجة لحساب مدفوع
-          npx eas-cli build --platform android --profile preview --non-interactive --local
+      - name: Install EAS CLI globally
+        run: npm install -g eas-cli
+
+      - name: Build APK locally (No Expo account required)
+        run: npx eas-cli build --platform android --profile preview --non-interactive --local
