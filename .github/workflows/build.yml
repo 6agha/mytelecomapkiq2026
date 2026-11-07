@@ -29,11 +29,9 @@ jobs:
       - name: Install EAS CLI globally
         run: npm install -g eas-cli
 
-      - name: Build APK locally (Bypass Expo login)
+      - name: Build APK Locally
         env:
-          EXPO_NO_AUTH_WARN: 1
-          EAS_NO_VCS: 1
+          EXPO_OFFLINE: 1
+          EAS_NON_INTERACTIVE: 1
         run: |
-          # تجاوز الحاجة لتسجيل الدخول عبر تمرير متغير بيئي وهمي للبناء المحلي
-          export EXPO_TOKEN="bypass_token_for_local_build"
-          npx eas-cli build --platform android --profile preview --non-interactive --local
+          npx eas-cli build --platform android --profile preview --non-interactive --local --clear-cache
