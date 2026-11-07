@@ -1,0 +1,32 @@
+export const X = {
+  ar: {
+    stepReceived: 'تم الاستلام', stepProcessing: 'قيد التجهيز', stepCompleted: 'مكتمل', statusCancelled: 'الطلب ملغي', statusRefunded: 'تم استرجاع المبلغ', statusFailed: 'فشل الطلب',
+    privacy: 'سياسة الخصوصية',
+    couponPlaceholder: 'كود الخصم', apply: 'تطبيق', discount: 'الخصم', remove: 'إزالة', related: 'منتجات مشابهة', messenger: 'تواصل عبر ماسنجر',
+    sortDefault: 'الافتراضي', priceLow: 'الأقل سعراً', priceHigh: 'الأعلى سعراً', onSaleOnly: 'العروض فقط', inStockOnly: 'المتوفر فقط', itemsCount: 'منتج',
+    wishlist: 'المفضلة', wishlistEmpty: 'لا توجد منتجات في المفضلة', outOfStock: 'غير متوفر', onlyLeft: 'متبقي',
+    search: 'بحث', searchPlaceholder: 'ابحث عن منتج...', recent: 'عمليات البحث الأخيرة', clear: 'مسح', noResults: 'لا توجد نتائج', searchHint: 'اكتب اسم المنتج للبحث',
+    resetSent: 'إذا كان البريد مسجلاً فسيصلك رابط الاستعادة', enterEmail: 'يرجى إدخال بريدك الإلكتروني',
+    deleteAccount: 'حذف الحساب', deleteWarn: 'سيتم حذف حسابك وبياناتك نهائياً ولا يمكن التراجع. أدخل كلمة المرور للتأكيد.', deleteConfirm: 'حذف نهائي', enterPassword: 'كلمة المرور', deleted: 'تم حذف الحساب', cancel: 'إلغاء',
+  },
+  en: {
+    stepReceived: 'Received', stepProcessing: 'Processing', stepCompleted: 'Completed', statusCancelled: 'Order cancelled', statusRefunded: 'Refunded', statusFailed: 'Order failed',
+    privacy: 'Privacy Policy',
+    couponPlaceholder: 'Coupon code', apply: 'Apply', discount: 'Discount', remove: 'Remove', related: 'Related products', messenger: 'Chat on Messenger',
+    sortDefault: 'Default', priceLow: 'Price: low to high', priceHigh: 'Price: high to low', onSaleOnly: 'On sale', inStockOnly: 'In stock', itemsCount: 'items',
+    wishlist: 'Wishlist', wishlistEmpty: 'Your wishlist is empty', outOfStock: 'Out of stock', onlyLeft: 'left',
+    search: 'Search', searchPlaceholder: 'Search products...', recent: 'Recent searches', clear: 'Clear', noResults: 'No results found', searchHint: 'Type a product name to search',
+    resetSent: 'If the email is registered, a reset link will be sent', enterEmail: 'Please enter your email',
+    deleteAccount: 'Delete account', deleteWarn: 'Your account and data will be permanently deleted. This cannot be undone. Enter your password to confirm.', deleteConfirm: 'Delete permanently', enterPassword: 'Password', deleted: 'Account deleted', cancel: 'Cancel',
+  },
+  ku: {
+    stepReceived: 'وەرگیرا', stepProcessing: 'ئامادەکردن', stepCompleted: 'تەواوبوو', statusCancelled: 'داواکاری هەڵوەشێنرایەوە', statusRefunded: 'پارەکە گەڕێندرایەوە', statusFailed: 'داواکاری سەرنەکەوت',
+    privacy: 'سیاسەتی پاراستنی نهێنی',
+    couponPlaceholder: 'کۆدی داشکاندن', apply: 'جێبەجێکردن', discount: 'داشکاندن', remove: 'لابردن', related: 'بەرهەمی هاوشێوە', messenger: 'پەیوەندی بە ماسنجەر',
+    sortDefault: 'بنەڕەتی', priceLow: 'نرخ: کەمترین', priceHigh: 'نرخ: زۆرترین', onSaleOnly: 'داشکاندن', inStockOnly: 'بەردەست', itemsCount: 'بەرهەم',
+    wishlist: 'دڵخوازەکان', wishlistEmpty: 'هیچ بەرهەمێک لە دڵخوازەکان نییە', outOfStock: 'بەردەست نییە', onlyLeft: 'ماوە',
+    search: 'گەڕان', searchPlaceholder: 'بگەڕێ بۆ بەرهەم...', recent: 'دوایین گەڕانەکان', clear: 'سڕینەوە', noResults: 'هیچ ئەنجامێک نەدۆزرایەوە', searchHint: 'ناوی بەرهەمەکە بنووسە',
+    resetSent: 'ئەگەر ئیمەیڵەکە تۆمارکرابێت، بەستەری گەڕاندنەوەت بۆ دێت', enterEmail: 'تکایە ئیمەیڵەکەت بنووسە',
+    deleteAccount: 'سڕینەوەی هەژمار', deleteWarn: 'هەژمارەکەت و زانیارییەکانت بە تەواوی دەسڕدرێنەوە و ناگەڕێتەوە. وشەی تێپەڕ بنووسە بۆ دڵنیابوون.', deleteConfirm: 'سڕینەوەی هەمیشەیی', enterPassword: 'وشەی تێپەڕ', deleted: 'هەژمارەکە سڕایەوە', cancel: 'پاشگەزبوونەوە',
+  },
+};

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519794862377",
+    "project_id": "mytelecom-52388",
+    "storage_bucket": "mytelecom-52388.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519794862377:android:e0892b599f96a6c74d6f38",
+        "android_client_info": {
+          "package_name": "iq.com.mytelecom.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdrSISrTL-AFb3yfasrnRU2ZQqVZd6Koc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
